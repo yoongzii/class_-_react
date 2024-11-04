@@ -1,0 +1,8 @@
+.box{
+   width: 500px; min-height: 700px;
+   background: #e9e7e7; margin: 30px auto;
+}
+
+nav>ul{
+   display: flex; gap: 30px;
+}

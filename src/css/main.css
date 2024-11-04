@@ -1,0 +1,55 @@
+/* main.css */
+
+button{cursor: pointer;}
+
+/* p{margin: 50px 0;} */
+.btns{
+   display: flex; gap:10px; justify-content: center;
+   margin: 20px 0;
+
+
+}
+
+.btns button{
+   font-size: 20px; font-weight: 700;
+   border-radius: 10px; border: none;
+   padding: 12px 20px;
+}
+
+.light, .dark{
+   width: 80%;
+   padding: 60px 30px;
+   margin: auto; border-radius: 50px;
+}
+.light{
+   background: #fff;
+
+}
+.dark{
+   background: #000; color:#fff;
+}
+
+/* day3 : UseState - modal */
+.modal_content {
+   display: flex; flex-direction: column;
+   justify-content: space-between; align-items: center;
+   width: 300px;height: 150px;
+   border: 1px solid #999;
+   background: #fff;
+   margin: 20px auto;
+   padding: 40px;
+}
+
+
+/* day3 : UseState - Tab Content */
+.tabs{
+   display: flex; justify-content: center; gap: 10px;
+   margin: 40px 0;
+
+}
+.tab_cont {
+   width: 700px;height: 200px;
+   background: #fff; border: 1px solid #666;
+   margin: auto;
+}
+

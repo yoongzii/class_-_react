@@ -1,0 +1,22 @@
+/* day8.css */
+
+.prod_add_wrap{
+   display: flex; gap: 50px;
+   justify-content: center; align-items: center;
+   position: fixed; left: 0;right: 0;top: 0;bottom: 0;
+   background: rgba(0,0,0,0.4);
+}
+.prod_add_wrap h3 {display: none;}
+.prod_add_box {
+   background: rgb(152, 182, 152);
+   padding: 40px;
+   border-radius: 12px;
+}
+.prod_add_box dl {
+   display: flex; flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px 20px; width: 300px;
+}
+.prod_add_box dt{width: 80px; text-align: center;}
+.prod_add_box dd{width: 160px;}
+.prod_add_box dd input{border-radius: 5px; border: 1px solid #ccc;}
